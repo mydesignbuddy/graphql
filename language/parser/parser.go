@@ -3,9 +3,9 @@ package parser
 import (
 	"fmt"
 
-	"github.com/graphql-go/graphql/language/lexer"
 	"github.com/mydesignbuddy/graphql-app-engine/gqlerrors"
 	"github.com/mydesignbuddy/graphql-app-engine/language/ast"
+	"github.com/mydesignbuddy/graphql-app-engine/language/lexer"
 	"github.com/mydesignbuddy/graphql-app-engine/language/source"
 )
 
