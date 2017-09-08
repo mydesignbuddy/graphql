@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/graphql-go/graphql/language/ast"
+	ast "github.com/mydesignbuddy/graphql-app-engine/language/ast"
 )
 
 // Type interface for all of the possible kinds of GraphQL types

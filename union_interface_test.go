@@ -4,10 +4,9 @@ import (
 	"reflect"
 	"testing"
 
+	graphql "github.com/mydesignbuddy/graphql-app-engine"
+	"github.com/mydesignbuddy/graphql-app-engine/testutil"
 	"golang.org/x/net/context"
-
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
 )
 
 type testNamedType interface {

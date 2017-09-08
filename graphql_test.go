@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
+	graphql "github.com/mydesignbuddy/graphql-app-engine"
+	testutil "github.com/mydesignbuddy/graphql-app-engine/testutil"
 )
 
 type T struct {

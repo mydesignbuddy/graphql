@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/ast"
+	gqlerrors "github.com/mydesignbuddy/graphql-app-engine/gqlerrors"
+	ast "github.com/mydesignbuddy/graphql-app-engine/language/ast"
 )
 
 type ExecuteParams struct {

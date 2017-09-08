@@ -3,7 +3,7 @@ package gqlerrors
 import (
 	"errors"
 
-	"github.com/graphql-go/graphql/language/location"
+	"github.com/mydesignbuddy/graphql-app-engine/language/location"
 )
 
 type FormattedError struct {

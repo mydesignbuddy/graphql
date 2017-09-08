@@ -2,11 +2,11 @@ package printer
 
 import (
 	"fmt"
+	"reflect"
 	"strings"
 
-	"github.com/graphql-go/graphql/language/ast"
-	"github.com/graphql-go/graphql/language/visitor"
-	"reflect"
+	"github.com/mydesignbuddy/graphql-app-engine/language/ast"
+	"github.com/mydesignbuddy/graphql-app-engine/language/visitor"
 )
 
 func getMapValue(m map[string]interface{}, key string) interface{} {
