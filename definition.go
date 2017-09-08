@@ -1,10 +1,11 @@
 package graphql
 
 import (
-	"context"
 	"fmt"
 	"reflect"
 	"regexp"
+
+	"golang.org/x/net/context"
 
 	"github.com/graphql-go/graphql/language/ast"
 )

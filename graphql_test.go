@@ -1,9 +1,10 @@
 package graphql_test
 
 import (
-	"context"
 	"reflect"
 	"testing"
+
+	"golang.org/x/net/context"
 
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/testutil"

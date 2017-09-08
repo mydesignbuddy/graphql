@@ -1,11 +1,12 @@
 package graphql
 
 import (
-	"context"
 	"errors"
 	"fmt"
 	"reflect"
 	"strings"
+
+	"golang.org/x/net/context"
 
 	"github.com/graphql-go/graphql/gqlerrors"
 	"github.com/graphql-go/graphql/language/ast"
